@@ -1,0 +1,23 @@
+
+#확장자가 .a or .o 인 파일 무시
+*.[0a]
+
+!lib.a
+
+*~
+
+#현재 폴더에 있는 TODO file 무시
+/TODO
+
+#build폴더에 있는 내용 무시
+build/
+
+#doc파일 안에 있는 txt는 무시 doc파일안에 디렉토리 안에 txt파일은 무시 X
+doc/*.txt
+
+
+#doc파일 아래의 모든 pdf파일 무시
+doc/**/*.pdf
+
+
+
